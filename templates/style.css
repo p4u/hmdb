@@ -1,0 +1,73 @@
+body{
+background:#dadbe6;
+margin:1em 10%;
+font: 8pt/14pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:#666666;
+}
+#main{
+	width: 960px;
+	background: #fff;
+	padding-left: 3px;
+}
+A:link{ color:#483f3f; text-decoration:none; }
+A:hover{ color:#6C8EFF; text-decoration:underline; }
+A:active{ color:#999999; text-decoration:none; }
+A:active:hover{ color:#6C8EFF; text-decoration:underline; }
+A:visited{ color:#6C8EFF; text-decoration:none; }
+A:visited:hover{ color:#6C8EFF; text-decoration:underline; }
+
+h3{
+text-align:left;
+color:#6C8EFF;
+font-size:14pt;
+font-weight:bold;
+clear:both;
+}
+
+#title{
+height:120px; 
+margin-top:1px;
+text-align:center;
+font-size:20pt;
+letter-spacing:-1px;
+color:#CCCCCC;
+margin-left:0px;
+background-color:#000000;
+width: 955px;
+/*width: 960px;*/
+}
+
+#download {
+font: bold;	
+}
+
+#download a:link {text-decoration: none; }
+#download a:visited { text-decoration: none;  }
+#download a:hover { text-decoration: none;  }
+#download a:active { text-decoration: none; } 
+#download img { border: 0; }
+
+#movie_index {
+font: bold;	
+position:relative;
+width:960px;
+}
+
+#movie_index a:link { color:#FFFFFF; text-decoration:none; }
+#movie_index a:visited { color:#FFFFFF; text-decoration:none; }
+#movie_index a:hover { background:#F3F3F3; color:black; text-decoration:none; }
+
+#movie {
+	background: none repeat scroll 0 0 #444444;
+	width:130px;
+	float:left;
+	text-align:center;
+	height: 200px;
+	margin:3px;
+	padding-top:3px;
+}
+
+#movie img {
+	display: block;
+	margin: auto;
+}
